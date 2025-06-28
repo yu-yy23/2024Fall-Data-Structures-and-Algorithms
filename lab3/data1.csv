@@ -1,0 +1,7 @@
+Hashing_Strategy,Collision_Strategy,Run_Time_Seconds,Status
+uneven,linear,0.331548,Success
+uneven,bidirectional,0.199764,Success
+uneven,public,0.615462,Success
+uniform,linear,0.178164,Success
+uniform,bidirectional,0.172379,Success
+uniform,public,0.392817,Success

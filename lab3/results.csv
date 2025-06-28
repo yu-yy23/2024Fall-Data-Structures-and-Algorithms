@@ -1,0 +1,36 @@
+data1,,,,
+"data features
+insert:5w
+query:10w
+uniform random",,,,
+,Hashing_Strategy,Collision_Strategy,Run_Time_Seconds,Status
+,uneven,linear,0.331548,Success
+,uneven,bidirectional,0.199764,Success
+,uneven,public,0.615462,Success
+,uniform,linear,0.178164,Success
+,uniform,bidirectional,0.172379,Success
+,uniform,public,0.392817,Success
+data2,,,,
+"data features
+insert:36w
+query:20w
+uniform random",,,,
+,Hashing_Strategy,Collision_Strategy,Run_Time_Seconds,Status
+,uneven,linear,0.732759,Success
+,uneven,bidirectional,0.583478,Success
+,uneven,public,more than 30,Failed
+,uniform,linear,0.608922,Success
+,uniform,bidirectional,0.55882,Success
+,uniform,public,more than 30,Failed
+data3,,,,
+"data features
+insert:8w
+query:16w
+high collision",,,,
+,Hashing_Strategy,Collision_Strategy,Run_Time_Seconds,Status
+,uneven,linear,0.333728,Success
+,uneven,bidirectional,0.255514,Success
+,uneven,public,1.729735,Success
+,uniform,linear,0.259193,Success
+,uniform,bidirectional,0.24855,Success
+,uniform,public,0.945581,Success

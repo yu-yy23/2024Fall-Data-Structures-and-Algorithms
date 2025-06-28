@@ -1,0 +1,17 @@
+.vscode
+*.o
+*.in
+*.out
+*.zip
+**/report.md
+**/code.cpp
+**/reference.cpp
+**/reference.exe
+**/reference
+**/feature.cpp
+lab1/code/*.cpp
+lab3/*.cpp
+lab3/*.h
+lab4/avl.cpp
+lab4/redblack.cpp
+lab4/splay.cpp
